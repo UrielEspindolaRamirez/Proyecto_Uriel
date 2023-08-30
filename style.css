@@ -3,9 +3,12 @@
     height: 100px;
     background-color: rgb(255, 241, 89);
     grid-template-columns: 20% 40% 40%;
+    grid-template-rows: 40px, 28px ;
     justify-items: center;
-    gap: 25px;
-    border: 10px;
+    gap: 20px;
+    align-items: center;
+    position: relative;
+    padding: 10px ;
 }
 
 .buscador{
@@ -17,14 +20,24 @@
     height: 39px;
     width: 340px;
 }
+
+.ubi:hover{
+    border: 1px solid black;
+}
+
 .menu{
     display: flex;
     align-items: end;
 }
+
 .cliente{
     display: flex;
     width: 390px;
     height: 28px;
     justify-content: end;
     align-items: end;
+}
+
+span{
+    border: 10px solid transparent;
 }
