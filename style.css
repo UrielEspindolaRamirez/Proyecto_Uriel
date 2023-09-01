@@ -1,29 +1,31 @@
 .navp{
     display: grid;
-    height: 100px;
+    height: 120px;
     background-color: rgb(255, 241, 89);
     grid-template-columns: 20% 40% 40%;
     grid-template-rows: 40px, 28px ;
     justify-items: center;
     gap: 20px;
     align-items: center;
-    position: relative;
-    padding: 10px ;
+
 }
 
 .buscador{
     display: flex;
     background: white;
-    width: 400px;
+    width: 600px;
+    height: 35px;
 }
 
 .inp{
     border: white;
+    width: 550px;
 }
 
 .lupa-boton{
     border: white;
-    border-right: grey;
+    border-right:  black;
+    background: white;
 }
 
 .suscrip{
@@ -31,6 +33,21 @@
     width: 340px;
 }
 
+.button:hover{
+    border: 1px solid black;
+}
+
+.button{
+    background: rgb(255, 241, 89);
+    border:solid transparent;
+    position: relative;
+}
+
+.ubi{
+    display: flex;
+    background: rgb(255, 241, 89);
+    border:solid transparent;
+}
 .ubi:hover{
     border: 1px solid black;
 }
@@ -48,24 +65,81 @@
     align-items: end;
 }
 
-span{
-    border: 10px solid transparent;
-}
-
 .img{
     width: 100%;
+    
 }
 
 .img1{
     width: 100%;
-    border: 10% solid rgb(255, 236, 32);
+    
+    background-color: rgb(255, 236, 32);
 }
 
 .img-3{
-    display: grid;
-    grid-template-columns: 30% 30% 30%;
+    height: 300px;
 }
 
-.img-3.1{
-    width: 150px;
+.img-3-1{
+    width: 30%;
+    height: 250px;
+    border-radius: 2%;
+    position: relative;
+    left: 70px;
+}
+
+.img-3-2{
+    height: 250px;
+    width: 30%;
+    border-radius: 2%;
+    position: relative;
+    left: 90px;
+}
+
+.img-3-3{
+    width: 30%;
+    height: 250px;
+    border-radius: 2%;
+    position: relative;
+    left: 110px;
+}
+
+.des{
+    display: grid;
+    align-items: center;
+    grid-template-columns: 100%;
+    justify-items: center;
+    height: 100px;
+}
+
+.descuentos-1{
+   height: 270px;
+   width: 100%;
+
+}
+
+.d-1{
+    height: 240px;
+    width: 45%;
+    position: relative;
+    border-radius: 2%;
+    left: 60px;
+
+}
+
+.d-2{
+    height: 240px;
+    width: 45%;
+    position: relative;
+    border-radius: 2%;
+    left: 80px;
+    
+}
+
+.d-3{
+    display: flex;
+    height: 150px;
+    width: 80%;
+    float: center;
+    
 }
